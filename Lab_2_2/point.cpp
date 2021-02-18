@@ -14,14 +14,12 @@ Point::Point(float x, float y) : x(x), y(y) {}
 void Point::shift_x(float num)
 {
     this->x += num;
-    return;
 }
 
 
 void Point::shift_y(float num)
 {
     y += num;
-    return;
 }
 
 
@@ -36,8 +34,6 @@ void Point::set_point(float x, float y)
 {
     this->x = x;
     this->y = y;
-
-    return;
 }
 
 
@@ -62,8 +58,6 @@ void Point::add(const Point& p)
 {
     x += p.x;
     y += p.y;
-
-    return;
 }
 
 
